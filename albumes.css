@@ -1,0 +1,37 @@
+/* ======================================= */
+/* ESTILOS PARA LA GALERÍA DE ÁLBUMES */
+/* ======================================= */
+
+/* Asegura que el texto sea blanco, ya sea por Bootstrap o forzado */
+.text-white {
+    color: #ffffff !important;
+}
+
+/* Estilo para las portadas de álbum, haciéndolas cuadradas */
+.album-cover {
+    /* Permite que la imagen se ajuste y mantenga una proporción cuadrada */
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Efecto opcional al pasar el cursor */
+.album-item:hover .album-cover {
+    transform: scale(1.05);
+}
+
+
+/* Ajuste de los controles del carrusel para que sean visibles */
+#albumCarousel .carousel-control-prev,
+#albumCarousel .carousel-control-next {
+    /* Hace que el fondo de las flechas sea transparente para un look más limpio */
+    background: none; 
+}
+
+#albumCarousel .carousel-control-prev-icon,
+#albumCarousel .carousel-control-next-icon {
+    /* Color de las flechas (Bootstrap usa un color oscuro por defecto) */
+    filter: invert(1); /* Pone las flechas en blanco para contrastar con un fondo oscuro */
+}

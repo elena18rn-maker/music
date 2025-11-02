@@ -1,0 +1,14 @@
+/*
+  Reglas para controlar la altura del slider y el ancho de pantalla
+*/
+
+/* Define una altura máxima para las imágenes del slider (ej: 400px de alto) */
+.slider-img {
+    height: 500px; /* Puedes ajustar este valor: 300px, 450px, etc. */
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el espacio sin distorsionarse */
+}
+
+/* Opcional: Para el carrusel en sí, asegurar que ocupe todo el ancho disponible */
+#carouselExampleAutoplaying {
+    width: 100%;
+}

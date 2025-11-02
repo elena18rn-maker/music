@@ -1,0 +1,37 @@
+/* ======================================= */
+/* ESTILOS PARA EL FORMULARIO */
+/* ======================================= */
+
+/* Fondo para el formulario para que el texto blanco destaque */
+.form-custom-bg {
+    background-color: #1e1e1e; /* Un gris oscuro para buen contraste */
+    border: 1px solid #4A0404; /* Borde con color vino oscuro */
+}
+
+/* Estilo para el botón de envío */
+.btn-vino-submit {
+    background-color: #4A0404; /* Color vino muy oscuro */
+    color: #ffffff; /* Letras blancas */
+    border-color: #4A0404;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en el botón */
+.btn-vino-submit:hover {
+    background-color: #5c0707; /* Un poco más claro al pasar el ratón */
+    border-color: #5c0707;
+    color: #ffffff;
+}
+
+/* Asegura que los campos de formulario (input, select, textarea) sean legibles */
+.form-control, .form-select {
+    background-color: #333; /* Fondo gris oscuro dentro del campo */
+    color: #ffffff; /* Letras blancas dentro del campo */
+    border-color: #555;
+}
+
+/* Color del texto de marcador de posición (placeholder) */
+.form-control::placeholder { 
+    color: #bbb;
+    opacity: 1; /* Para Firefox */
+}

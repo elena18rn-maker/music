@@ -1,0 +1,23 @@
+/*
+  styles.css
+  Define el color vino oscuro para el navbar y las letras blancas
+*/
+
+/* Definimos el color vino muy oscuro para el fondo del navbar */
+.navbar-vino-oscuro {
+    /* Código hexadecimal para un tono vino/borgoña muy oscuro */
+    background-color: #4A0404 !important; 
+}
+
+/* Aseguramos que los enlaces del navbar sean blancos */
+.navbar-vino-oscuro .nav-link,
+.navbar-vino-oscuro .navbar-brand {
+    color: #ffffff !important;
+    float: right;
+}
+
+/* Color blanco en hover para los enlaces para asegurar contraste */
+.navbar-vino-oscuro .nav-link:hover {
+    color: #f0f0f0 !important;
+    float: right;
+}
